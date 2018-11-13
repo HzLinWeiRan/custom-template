@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development lwr s",
-    "build": "NODE_ENV=production lwr b"
+    "start": "iws-scripts start",
+    "build": "iws-scripts build"
   },
   "repository": {
     "type": "git",
@@ -14,9 +14,10 @@
   "bugs": {
     "url": "https://github.com/HzLinWeiRan/custom-template.git/issues"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "iws-scripts": "^1.0.5"
+  },
   "dependencies": {
-    "@wm/lwr-cli": "file:../lwr-cli",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-loadable": "^5.5.0",
