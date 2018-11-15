@@ -15,7 +15,6 @@ import reducers from './reducers'
 import './app.scss'
 
 const store = createStore(reducers, applyMiddleware(reduxPromise))
-fdsafdas
 
 class App extends PureComponent {
     render() {

@@ -14,10 +14,8 @@
   "bugs": {
     "url": "https://github.com/HzLinWeiRan/custom-template.git/issues"
   },
-  "devDependencies": {
-    "iws-scripts": "^1.0.7"
-  },
   "dependencies": {
+    "iws-scripts": "file:../iws-scripts",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-loadable": "^5.5.0",
