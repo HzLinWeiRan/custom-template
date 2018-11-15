@@ -15,6 +15,7 @@ import reducers from './reducers'
 import './app.scss'
 
 const store = createStore(reducers, applyMiddleware(reduxPromise))
+fdsafdas
 
 class App extends PureComponent {
     render() {
@@ -25,7 +26,7 @@ class App extends PureComponent {
                         <div>测试页面</div>
                         <Link to="/">index</Link>
                         <br />
-                        <Link to="/page1">page1</Link>
+                        <Link to="/page1">page</Link>
                         <Switch>
                             {routes.map(route => (
                                 <RouteWithSubRoutes key={route.path} {...route} />

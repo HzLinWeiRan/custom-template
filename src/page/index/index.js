@@ -19,7 +19,7 @@ class Index extends PureComponent {
         const { test } = this.props
         return (
             <div>
-                redux 测试2222
+                redux 测试2
                 {test}
             </div>
         )
