@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "iws-scripts start",
-    "build": "iws-scripts build"
+    "build": "iws-scripts build",
+    "lint": "eslint --fix src"
   },
   "husky": {
     "hooks": {
