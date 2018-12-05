@@ -14,12 +14,10 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "*.js": [
-        "eslint --fix",
-        "git add"
-      ]
-    }
+    "src/**.js": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
