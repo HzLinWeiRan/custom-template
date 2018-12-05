@@ -19,8 +19,7 @@
         "eslint --fix",
         "git add"
       ]
-    },
-    "ignore": ["src/**/*.js"]
+    }
   },
   "repository": {
     "type": "git",
