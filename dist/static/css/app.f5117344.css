@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex; }
+  body a {
+    color: red; }
+
