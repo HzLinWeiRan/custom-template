@@ -7,6 +7,17 @@
     "start": "iws-scripts start",
     "build": "iws-scripts build"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/HzLinWeiRan/custom-template.git"
@@ -15,7 +26,7 @@
     "url": "https://github.com/HzLinWeiRan/custom-template.git/issues"
   },
   "dependencies": {
-    "iws-scripts": "^1.0.8",
+    "iws-scripts": "../iws-scripts",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-loadable": "^5.5.0",
