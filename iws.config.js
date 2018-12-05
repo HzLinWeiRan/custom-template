@@ -1,6 +1,13 @@
 module.exports = {
-    dev: {
-        baseUrl: '',
-        publicPath: ''
+    htmlOptionData: {
+        dev: {
+            baseUrl: '',
+            publicPath: ''
+        }
+    },
+    defineData: {
+        dev: {
+            isDev: true
+        }
     }
 }
