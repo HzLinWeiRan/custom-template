@@ -7,6 +7,8 @@ import { testAction } from '../../reducers/actions'
     test: state.test
 }))
 class Index extends PureComponent {
+    state = {}
+
     componentDidMount() {
         const { dispatch } = this.props
         setTimeout(() => {
@@ -19,7 +21,7 @@ class Index extends PureComponent {
         const { test } = this.props
         return (
             <div>
-                redux 测试2
+                redux 测试212212222
                 {test}
             </div>
         )
