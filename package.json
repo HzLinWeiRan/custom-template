@@ -16,8 +16,7 @@
     "*.js": [
       "eslint --fix",
       "git add"
-    ],
-    "ignore": ["**/dist/**"]
+    ]
   },
   "repository": {
     "type": "git",
