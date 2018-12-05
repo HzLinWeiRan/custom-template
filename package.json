@@ -6,6 +6,7 @@
   "scripts": {
     "start": "iws-scripts start",
     "build": "iws-scripts build",
+    "build:test1": "iws-scripts build -e test1",
     "lint": "eslint --fix src"
   },
   "husky": {
@@ -29,7 +30,7 @@
     "url": "https://github.com/HzLinWeiRan/custom-template.git/issues"
   },
   "dependencies": {
-    "iws-scripts": "../iws-scripts",
+    "iws-scripts": "^1.1.3",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-hot-loader": "^4.3.12",

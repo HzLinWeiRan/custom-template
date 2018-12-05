@@ -7,7 +7,7 @@ module.exports = {
     },
     defineData: {
         dev: {
-            isDev: true
+            "process.env": true
         }
     }
 }
