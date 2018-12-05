@@ -27,7 +27,4 @@ class Index extends PureComponent {
 }
 
 
-
-
-
 export default Index
