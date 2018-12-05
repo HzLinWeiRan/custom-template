@@ -21,12 +21,11 @@ class Index extends PureComponent {
         const { test } = this.props
         return (
             <div>
-                redux 测试212212222
+                redux 测试
                 {test}
             </div>
         )
     }
 }
-
 
 export default Index

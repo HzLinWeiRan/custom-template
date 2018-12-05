@@ -29,6 +29,8 @@ module.exports = {
         'import/no-unresolved': 0,
         'import/prefer-default-export': 0,
         'import/named': 0,
+        'import/no-named-as-default': 0,
+        'import/no-named-as-default-member': 0,
         'react/prop-types': 0,
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],

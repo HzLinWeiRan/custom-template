@@ -10,7 +10,7 @@ const rootReducer = handleActions({
         }
     }
 }, {
-    test: 1
+    test: 10001
 })
 
 export default rootReducer
