@@ -17,6 +17,10 @@ const routes = [
         path: '/page1',
         component: loadableHandler(() => import('../page/page1'))
     },
+    {
+        path: '/page2',
+        component: loadableHandler(() => import('../page/page2'))
+    },
 ]
 
 export default routes

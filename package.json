@@ -1,5 +1,5 @@
 {
-  "name": "custom-template",
+  "name": "pc-sass-manage",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -30,7 +30,9 @@
     "url": "https://github.com/HzLinWeiRan/custom-template.git/issues"
   },
   "dependencies": {
-    "iws-scripts": "^1.1.3",
+    "element-react": "^1.4.24",
+    "element-theme-default": "^1.4.13",
+    "iws-scripts": "^1.2.1",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-hot-loader": "^4.3.12",
@@ -45,5 +47,8 @@
   "browserslist": [
     "iOS >= 7",
     "Android >= 4.1"
-  ]
+  ],
+  "devDependencies": {
+    "babel-plugin-import": "^1.11.0"
+  }
 }
