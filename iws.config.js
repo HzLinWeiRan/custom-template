@@ -1,4 +1,15 @@
 module.exports = {
+    default: {
+        // publicPath: "/",
+        htmlOptionData: {
+            baseUrl: '222',
+            publicPath: '111222',
+            ihosSuffix: 'dev.'
+        },
+        defineData: {
+            'process.env': true
+        }
+    },
     dev: {
         // publicPath: "/",
         htmlOptionData: {
@@ -7,7 +18,7 @@ module.exports = {
             ihosSuffix: 'dev.'
         },
         defineData: {
-            "process.env": true
+            'process.env': true
         }
     },
     test1: {
