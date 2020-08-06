@@ -15,6 +15,13 @@
                 "loose": true
             }
         ],
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "style": true   // or 'css'
+            }
+        ],
         "react-hot-loader/babel"
     ]
 }

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import { createStore, applyMiddleware } from 'redux'
 import { Provider } from 'react-redux'
 import reduxPromise from 'redux-promise'
-import 'element-theme-default/lib/base.css'
 import './app.less'
 
 import Main from './main.js'

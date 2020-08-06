@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 
-import './index.scss'
+import './index.less'
 
 export default class Page1 extends PureComponent {
     render() {

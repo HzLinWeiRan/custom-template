@@ -5,10 +5,10 @@ import {
     Link
 } from 'react-router-dom'
 import { hot } from 'react-hot-loader'
-import { Button, Alert } from 'element-react'
+import { Button } from 'antd'
 import RouteWithSubRoutes from './components/RouteWithSubRoutes'
 import routes from './routes'
-import './main.scss'
+import './main.less'
 
 @hot(module)
 class Main extends PureComponent {
@@ -16,8 +16,6 @@ class Main extends PureComponent {
         return (
             <Router>
                 <div>
-                    <Alert title="单页应用测试单页应用测试" type="success" />
-                    <Alert title="单页应用测试" type="info" />
                     <Link to="/"><Button type="primary">index</Button></Link>
                     <br />
                     <Link to="/page1"><Button>page1</Button></Link>
