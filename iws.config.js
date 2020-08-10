@@ -1,8 +1,5 @@
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-
 module.exports = {
     default: {
-        // publicPath: "/",
         htmlOptionData: {
             baseUrl: '222',
             publicPath: '111222',
@@ -10,7 +7,7 @@ module.exports = {
         },
         defineData: {
             'process.env': true,
-            'process.publicPath': ''
+            'process.publicPath': '/'
         }
     },
     dev: {
@@ -19,15 +16,17 @@ module.exports = {
             baseUrl: '222',
             publicPath: '111222',
             ihosSuffix: 'dev.'
-        },
-        defineData: {
-            'process.env': true
         }
     },
     test1: {
+        publicPath: '/dist/',
         htmlOptionData: {
             baseUrl: '222',
             publicPath: '111222'
+        },
+        defineData: {
+            'process.env': true,
+            'process.publicPath': '/dist/'
         }
     }
 }

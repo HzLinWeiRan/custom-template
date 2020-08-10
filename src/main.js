@@ -14,7 +14,7 @@ import './main.less'
 class Main extends PureComponent {
     render() {
         return (
-            <Router>
+            <Router basename={process.publicPath}>
                 <div>
                     <Link to="/"><Button type="primary">index</Button></Link>
                     <br />

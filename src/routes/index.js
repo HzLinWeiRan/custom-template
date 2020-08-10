@@ -4,7 +4,7 @@ import Loadable from 'react-loadable'
 
 const loadableHandler = loader => Loadable({
     loader,
-    loading: () => <div>222</div>
+    loading: () => <div>loading</div>
 })
 
 const routes = [
