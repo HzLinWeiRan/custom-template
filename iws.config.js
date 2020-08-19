@@ -1,17 +1,17 @@
 module.exports = {
     default: {
+        publicPath: '/',
         htmlOptionData: {
             baseUrl: '222',
-            publicPath: '111222',
-            ihosSuffix: 'dev.'
+            publicPath: '111222'
         },
         defineData: {
             'process.env': true,
-            'process.publicPath': '/'
+            'process.publicPath': JSON.stringify('/')
         }
     },
     dev: {
-        // publicPath: "/",
+        publicPath: '/',
         htmlOptionData: {
             baseUrl: '222',
             publicPath: '111222',
